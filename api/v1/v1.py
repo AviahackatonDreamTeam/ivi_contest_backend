@@ -1,6 +1,6 @@
 from eve import Eve
-from v1.settings import *
-from v1.callbacks import post_get_callback, post_films_get_callback
+from api.v1.settings import *
+from api.v1.callbacks import post_get_callback, post_films_get_callback
 
 app = Eve()
 

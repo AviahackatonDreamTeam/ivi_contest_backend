@@ -10,6 +10,7 @@ users_schema = {
         'type' : 'string',
     },
     'flights_history' : {
+        'required' : False,
         'type': 'list',
         'schema' : {
             'type' : 'dict',
@@ -33,8 +34,6 @@ users_schema = {
 
 users = {
     'item_titile': 'users',
-    'cache_control': 'max-age=10,must-revalidate',
-    'cache_expires': 10,
     'resource_methods': ['GET', 'POST', 'PUT'],
     'schema' : users_schema,
 }

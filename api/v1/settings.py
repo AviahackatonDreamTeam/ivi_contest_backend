@@ -1,5 +1,5 @@
-from v1.films import films
-from v1.users import users
+from api.v1.films import films
+from api.v1.users import users
 from os import environ as env
 
 DOMAIN = {
