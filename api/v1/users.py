@@ -9,6 +9,9 @@ users_schema = {
     'email' : {
         'type' : 'string',
     },
+    'tg_user_id' : {
+        'type' : 'string',
+    },
     'flights_history' : {
         'required' : False,
         'type': 'list',
@@ -34,6 +37,6 @@ users_schema = {
 
 users = {
     'item_titile': 'users',
-    'resource_methods': ['GET', 'POST', 'PUT'],
+    'resource_methods': ['GET', 'POST'], 
     'schema' : users_schema,
 }

@@ -35,6 +35,6 @@ films = {
     'item_titile': 'films',
     'cache_control': 'max-age=10,must-revalidate',
     'cache_expires': 10,
-    'resource_methods': ['GET', 'POST', 'PUT'],
+    'resource_methods': ['GET', 'POST'],
     'schema' : films_schema,
 }
